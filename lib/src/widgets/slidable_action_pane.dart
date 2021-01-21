@@ -12,7 +12,7 @@ class _SlidableStackActionPane extends StatelessWidget {
         ).animate(data.actionsMoveAnimation),
         super(key: key);
 
-  final Widget child;
+  final Widget child; // change
   final SlidableData data;
   final Animation<Offset> _animation;
 
